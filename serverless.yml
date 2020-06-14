@@ -30,3 +30,9 @@ functions:
       - http:
           method: get
           path: hello
+  doofus:
+    handler: handler.doofus
+    events:
+      - http:
+          method: get
+          path: doofus

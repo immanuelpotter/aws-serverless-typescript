@@ -10,3 +10,13 @@ export const hello: APIGatewayProxyHandler = async (event, _context) => {
     }, null, 2),
   };
 }
+
+export const doofus: APIGatewayProxyHandler = async (event, _context) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Another endpoint that also executed successfully!',
+      input: event,
+    }, null, 2),
+  };
+}
