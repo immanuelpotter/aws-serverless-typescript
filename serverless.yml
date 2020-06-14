@@ -1,5 +1,5 @@
 org: mannypotter
-app: my-first-app
+app: sls-ts-app
 service:
   name: sls-ts
 # app and org for use with dashboard.serverless.com
